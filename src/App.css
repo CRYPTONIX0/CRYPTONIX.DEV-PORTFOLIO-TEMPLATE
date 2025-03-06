@@ -1,0 +1,44 @@
+/* Estilo para el contenedor principal de la aplicación */
+.App {
+  text-align: center;
+}
+
+/* Estilo para el logo de la aplicación */
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+/* Animación para el logo de la aplicación cuando no se prefiere la reducción de movimiento */
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+/* Estilo para el encabezado de la aplicación */
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+/* Estilo para los enlaces de la aplicación */
+.App-link {
+  color: #61dafb;
+}
+
+/* Definición de la animación para el giro del logo de la aplicación */
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}

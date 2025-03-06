@@ -1,0 +1,8 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@500&display=swap"); /* Importa la fuente Raleway desde Google Fonts */
+body {
+  margin: 0; /* Elimina el margen predeterminado del cuerpo */
+  font-family: "Raleway", serif !important; /* Aplica la fuente Raleway al cuerpo del documento, con importancia */
+  -webkit-font-smoothing: antialiased; /* Suaviza las fuentes en navegadores WebKit */
+  -moz-osx-font-smoothing: grayscale; /* Suaviza las fuentes en macOS */
+  background-image: linear-gradient(to left, rgb(27 20 41), rgb(20 15 35)); /* Aplica un degradado de fondo de izquierda a derecha con los colores especificados */
+}

@@ -1,0 +1,133 @@
+/* Estilos generales para la aplicación */
+.App {
+    text-align: center;
+  }
+  
+  /* Logo de la aplicación (ajustado para tu proyecto) */
+  .App-logo {
+    height: 40vmin;
+    pointer-events: none;
+  }
+  
+  /* Animación para el logo (solo si se prefiere movimiento) */
+  @media (prefers-reduced-motion: no-preference) {
+    .App-logo {
+      animation: App-logo-spin infinite 20s linear;
+    }
+  }
+  
+  /* Estilo para el encabezado de la página */
+  .App-header {
+    background-color: #282c34; /* Fondo oscuro */
+    min-height: 100vh; /* Asegura que ocupe toda la altura de la ventana */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin); /* Ajuste dinámico del tamaño del texto */
+    color: white; /* Texto en blanco */
+    padding: 20px;
+    box-sizing: border-box; /* Asegura que el padding no afecte el tamaño total */
+  }
+  
+  /* Estilo para los enlaces */
+  .App-link {
+    color: white; /* Color blanco para los enlaces */
+    text-decoration: none; /* Eliminar subrayado */
+  }
+  
+  /* Animación para el logo (girando 360 grados) */
+  @keyframes App-logo-spin {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  }
+  
+  /* Ajustes específicos para la sección de Términos y Política de Privacidad */
+  
+  /* Contenedor principal para la sección de términos y política */
+  .terms-privacy-section {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    background-color: #000000; /* Fondo negro */
+    padding: 20px;
+  }
+  
+  /* Títulos de las secciones de términos y privacidad */
+  .section-heading {
+    font-size: 2.5em;
+    color: #61dafb; /* Títulos en azul */
+    margin-bottom: 15px;
+    text-align: center;
+  }
+  
+  /* Contenedores de los términos y política de privacidad */
+  .terms-card, .privacy-card {
+    background-color: black; /* Fondo negro */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px #61dafb; /* Sombra azul */
+    margin-bottom: 20px;
+  }
+  
+  /* Estilo para el footer */
+  footer {
+    background-color: #282c34; /* Fondo oscuro */
+    color: #61dafb; /* Texto azul */
+    padding: 20px;
+    text-align: center;
+    font-size: 0.9em;
+    margin-top: auto;
+  }
+  
+  /* Estilo para la sección del contenido (centra los textos y ajusta márgenes) */
+  .terms-privacy-section p {
+    font-size: 1.1em;
+    color: #61dafb; /* Texto azul */
+    line-height: 1.6;
+    max-width: 800px;
+    margin: 20px auto;
+  }
+  
+  /* Estilo de ajuste para pantallas pequeñas (móviles) */
+  @media (max-width: 768px) {
+    .section-heading {
+      font-size: 1.8em; /* Títulos más pequeños en pantallas pequeñas */
+    }
+  
+    .terms-card, .privacy-card {
+      padding: 15px;
+    }
+  
+    footer {
+      font-size: 0.8em;
+    }
+  
+    .App-header {
+      font-size: calc(8px + 2vmin);
+    }
+  
+    /* Asegura que los títulos sean blancos en pantallas pequeñas */
+    .titulo-terminos-y-privacidad {
+      color: white;
+    }
+  }
+  
+  /* Estilo para los títulos de las tarjetas (azul) */
+  .card-title {
+    color: #61dafb; /* Color azul para los títulos */
+    font-size: 1.5em; /* Ajuste de tamaño para los títulos */
+    margin-bottom: 10px; /* Separación entre título y descripción */
+  }
+  
+/* Estilo para las descripciones de las tarjetas (blanco) */
+.card-description {
+    color: white !important; /* Aseguramos que el color blanco se aplique incluso si hay conflicto */
+    font-size: 1.1em;
+    line-height: 1.6;
+}
+  
